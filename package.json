@@ -1,16 +1,12 @@
 {
-  "name": "roblox-mp4-parser-api",
+  "name": "qr-code-api",
   "version": "1.0.0",
-  "description": "API parse video MP4 to RGB pixels for Roblox Build A Boat",
-  "main": "api/parse-video.js",
+  "description": "API tạo ma trận QR Code trắng đen cho Roblox",
+  "main": "api/qrcode.js",
   "scripts": {
-    "start": "node api/parse-video.js"
+    "start": "node api/qrcode.js"
   },
   "dependencies": {
-    "@ffmpeg-installer/ffmpeg": "^1.1.0",
-    "axios": "^1.6.8",
-    "canvas": "^2.11.2",
-    "express": "^4.19.2",
-    "fluent-ffmpeg": "^2.1.2"
+    "qrcode": "^1.5.3"
   }
 }
